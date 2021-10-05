@@ -23,12 +23,13 @@ nav > p {
 }
 .floatright {
     float: right;
-    width: 200px;
 }
 .textblock {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
+    width: 200px;
+    height: 150px;
 }
 .clearfloat {
     clear: both;
