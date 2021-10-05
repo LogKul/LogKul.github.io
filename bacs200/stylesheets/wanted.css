@@ -6,7 +6,7 @@ header, footer {
     margin-top: 10px;
     margin-bottom: 10px
 }
-h1 + p {
+.textblock {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
