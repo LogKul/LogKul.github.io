@@ -1,12 +1,18 @@
 header, main, footer {
     text-align: center;
 }
+header, footer {
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
 p {
-    text-align: left;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
 }
 img {
     margin: 1in;
-    float: middle;
 }
 .clearfloat {
     clear: both;
