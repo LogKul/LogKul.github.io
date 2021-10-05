@@ -1,5 +1,10 @@
 header, main, footer {
     text-align: center;
-    border-style: solid;
-    border-color: blue;
+}
+img {
+    margin: 1in;
+    float: left;
+}
+.textright {
+    float: right;
 }
