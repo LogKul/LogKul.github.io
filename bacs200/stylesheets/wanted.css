@@ -29,9 +29,12 @@ nav > p {
 }
 .floatleft {
     float: left;
+    height: 699px;
 }
 .floatright {
     float: right;
+    width: 1030px;
+    height: 699px;
 }
 .textblock {
     border-style: solid;
