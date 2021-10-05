@@ -3,8 +3,10 @@ header, main, footer {
 }
 img {
     margin: 1in;
-    float: left;
 }
 .textright {
     float: right;
+}
+.clearfloat {
+    clear: both;
 }
