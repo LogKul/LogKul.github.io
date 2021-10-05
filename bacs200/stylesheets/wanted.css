@@ -6,6 +6,10 @@ header, footer {
     margin-top: 10px;
     margin-bottom: 10px
 }
+nav > p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
 .textblock {
     border-style: solid;
     border-color: blue;
