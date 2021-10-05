@@ -1,11 +1,12 @@
 header, main, footer {
     text-align: center;
 }
+p {
+    text-align: left;
+}
 img {
     margin: 1in;
-}
-.textright {
-    float: right;
+    float: middle;
 }
 .clearfloat {
     clear: both;
