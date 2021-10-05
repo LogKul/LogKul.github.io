@@ -23,6 +23,7 @@ nav > p {
 }
 .floatright {
     float: right;
+    width: 200px;
 }
 .textblock {
     border-style: solid;
