@@ -28,8 +28,8 @@ nav > p {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
-    width: 200px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
 }
 .clearfloat {
     clear: both;
