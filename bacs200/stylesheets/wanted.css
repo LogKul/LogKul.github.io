@@ -18,11 +18,13 @@ nav > p {
     margin-top: 4px;
     margin-bottom: 4px;
 }
-img {
+.floatleft {
     float: left;
 }
-.textblock {
+.floatright {
     float: right;
+}
+.textblock {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
