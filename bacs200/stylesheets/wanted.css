@@ -6,7 +6,7 @@ body {
 }
 main {
     padding-top: 30px;
-    padding-bottom: 180px;
+    padding-bottom: 140px;
 }
 header, footer {
     text-align: center;
@@ -27,6 +27,14 @@ nav > p {
     margin-top: 4px;
     margin-bottom: 4px;
 }
+strong {
+    color: darkgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .floatleft {
     float: left;
     height: 699px;
@@ -34,7 +42,7 @@ nav > p {
 }
 .floatright {
     float: right;
-    width: 1010px;
+    width: 1050px;
     height: 699px;
 }
 .textblock {
