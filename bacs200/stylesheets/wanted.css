@@ -14,6 +14,9 @@ header, footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 img {
     height: 699px;
     border-style: solid;
@@ -34,7 +37,7 @@ nav > p {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
-    font-size: 64;
+    font-size: 48px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 1030px;
     height: 699px;
