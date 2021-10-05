@@ -6,7 +6,7 @@ header, footer {
     margin-top: 10px;
     margin-bottom: 10px
 }
-p {
+h1 + p {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
