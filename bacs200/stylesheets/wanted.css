@@ -1,13 +1,16 @@
 body {
-    margin: 1in;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 1in;
+    margin-right: 1in;
 }
 header, main, footer {
     text-align: center;
 }
 header, footer {
     background-color: lightblue;
-    margin-top: 10px;
-    margin-bottom: 10px
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 nav > p {
     margin-top: 4px;
