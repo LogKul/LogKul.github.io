@@ -28,8 +28,10 @@ nav > p {
     border-style: solid;
     border-color: blue;
     border-width: 5px;
-    width: 500px;
-    height: 300px;
+    font-size: 24;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    height: 699px;
 }
 .clearfloat {
     clear: both;
