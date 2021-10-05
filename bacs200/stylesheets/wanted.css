@@ -6,7 +6,7 @@ body {
 }
 main {
     padding-top: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
 }
 header, footer {
     text-align: center;
@@ -21,8 +21,7 @@ img {
     height: 699px;
     border-style: solid;
     border-color: red;
-    border-width: 5px;
-    padding-top: 50px;
+    border-width: 10px;
 }
 nav > p {
     margin-top: 4px;
@@ -31,6 +30,7 @@ nav > p {
 .floatleft {
     float: left;
     height: 699px;
+    padding-top: 80px;
 }
 .floatright {
     float: right;
@@ -40,11 +40,12 @@ nav > p {
 .textblock {
     border-style: solid;
     border-color: blue;
-    border-width: 5px;
-    font-size: 72px;
+    border-width: 10px;
+    font-size: 80px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 1030px;
-    height: 699px;
+    width: 1010px;
+    height: 679px;
+    padding: 10px
 }
 .clearfloat {
     clear: both;
