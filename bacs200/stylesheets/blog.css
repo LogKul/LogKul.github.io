@@ -1,3 +1,18 @@
 nav > div > p {
     line-height: 9px;
 }
+h3 {
+    text-align: center;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: magenta;
+}
+a:active {
+    color: green;
+}
