@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+nav > div {
+    width: 20%;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+nav > div > p {
+    line-height: 9px;
+}
+
+.margin-left {
+    margin-left: 20%
+}
+.margin-left2 {
+    margin-left: 37%;
+}
+.margin-small-left {
+    margin-left: 5%;
+}
+.provision-items {
+    border: 2px solid blue;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+    background-color: lightblue;
+}
