@@ -13,13 +13,19 @@ nav > div > p {
 }
 
 .margin-left {
-    margin-left: 20%
+    margin-left: 10%
 }
 .margin-left2 {
-    margin-left: 37%;
+    margin-left: 18%;
 }
 .margin-small-left {
     margin-left: 5%;
+}
+.aims {
+    border: 2px solid crimson;
+    background-color: lightcoral;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .provision-items {
     border: 2px solid blue;
@@ -27,4 +33,15 @@ nav > div > p {
     font-size: 24px;
     padding-top: 15px;
     background-color: lightblue;
+}
+.steps {
+    border: 2px solid orange;
+    background-color: rgb(255, 255, 134);
+    padding-top: 10px;
+    width: 35%;
+}
+.contact {
+    border: 2px solid green;
+    background-color: lightgreen;
+    padding-top: 10px;
 }
