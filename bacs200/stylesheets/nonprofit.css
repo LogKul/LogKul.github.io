@@ -45,6 +45,11 @@ nav > div > p {
     background-color: lightgreen;
     padding-top: 10px;
 }
-.left {
-    text-align: left;
+.asanimage {
+    margin-right: 0px;
+    height: 170px;
+}
+.mailimage {
+    margin-left: 100px;
+    height: 250px;
 }
