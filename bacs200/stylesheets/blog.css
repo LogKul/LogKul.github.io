@@ -4,6 +4,11 @@ nav > div > p {
 h3 {
     text-align: center;
 }
+.left {
+    text-align: left;
+    float: left;
+    margin: 16px;
+}
 a:link {
     color: red;
 }
