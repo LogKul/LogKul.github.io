@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>TED Talks</title>
 
     <style>
@@ -16,7 +19,7 @@
 
         td {
             padding-top: 6px;
-            padding-bottom: 2px;
+            padding-bottom: 0px;
             padding-left: 6px;
             padding-right: 6px;
         }
@@ -28,87 +31,110 @@
 </head>
 
 <body>
-    <h1>Educational TED Talks</h1>
-    <hr>
-    <p>On this page I will link three neat educational TED Talks and a RSA Animations video.</p>
+    <header>
+        <div class="container-fluid p-5 bg-danger text-white text-center">
+            <h1>Educational TED Talks</h1>
+            <h2>And its Many Implications</h2>
+        </div>
+    </header>
 
-    <table>
-        <tr>
-            <td style="text-align: center; width: 300px"><strong>Title & Speaker</strong></td>
-            <td style="text-align: center"><strong>Video & Link</strong></td>
-            <td style="text-align: center; width: 600px"><strong>Summary</strong></td>
-        </tr>
-        <tr>
-            <td><cite>How to Eliminate Self Doubt Forever & The Power of Your Unconscious Mind</cite> by <strong>Peter
-                    Sage</strong></td>
-            <td><iframe width="280" height="160" src="https://www.youtube.com/embed/v1ojZKWfShQ"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></td>
-            <td style="padding-left: 30px; padding-right: 30px">As humans, our perception of our limits tend to
-                discourage us and subconsciously suggest that we can't
-                succeed. Our subconscious tends to limit our conscious, so we need to align our conscious to cooperate
-                with the subconscious. Our environments tend to win out over our desires and motivations. The solution
-                to these issues is to make sure we put ourselves in suitable environments, and stop putting the wrong
-                things into our minds and start putting the right things in our mind.</td>
-        </tr>
-        <tr>
-            <td><cite>My Philosophy for a Happy Life</cite> by <strong>Sam Berns</strong></td>
-            <td><iframe width="280" height="160" src="https://www.youtube.com/embed/36m1o-tM05g"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></td>
-            <td>
-                <ol>
-                    <li>Be okay with what you can't do, because there are so many things you can do.</li>
-                    <li>Surround yourself with good people and people you love.</li>
-                    <li>Keep moving forward, seek new avenues and continue to grow.</li>
-                </ol>
-            </td>
-        </tr>
-        <tr>
-            <td><cite>Grit: The Power of Passion and Perseverance</cite> by <strong>Angela Lee Duckworth</strong></td>
-            <td><iframe width="280" height="160" src="https://www.youtube.com/embed/H14bBuluwB8"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></td>
-            <td style="padding-left: 30px; padding-right: 30px">Grit is a better indicator of success than intelligence
-                or social skills. Because of this, grit might be
-                an important topic to educate kids with rather than running with the stereotypes that success is
-                inherent and comes naturally to most successful people.</td>
-        </tr>
-        <tr>
-            <td><cite>The Paradox of Choice</cite> by <strong>Professor Renata Salecl</strong></td>
-            <td><iframe width="280" height="160" src="https://www.youtube.com/embed/1bqMY82xzWo"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></td>
-            <td style="padding-left: 30px; padding-right: 30px">Choices can cause anxiety, even though we all want
-                change. The perceptions of other people affect our actions, because we're self-conscious, which reduces
-                the capacity for radical social change. Choice also requires a loss, which is why we try to mitigate
-                loss as much of possible by trying to choose the "best" choice. The world has evolved into a place where
-                people believe that they are in charge of their lives, even though they are trapped in a system of long
-                work hours and consumption, and people tend to blame themselves for all failure, even if that is not so.
-            </td>
-        </tr>
-    </table>
+    <br>
+    <br>
+
+    <main>
+        <table class="m-auto">
+            <tr>
+                <td style="text-align: center; width: 300px"><strong>Title & Speaker</strong></td>
+                <td style="text-align: center"><strong>Video & Link</strong></td>
+                <td style="text-align: center; width: 600px"><strong>Summary</strong></td>
+            </tr>
+            <tr>
+                <td><cite>How to Eliminate Self Doubt Forever & The Power of Your Unconscious Mind</cite> by
+                    <strong>Peter
+                        Sage</strong>
+                </td>
+                <td><iframe width="280" height="160" src="https://www.youtube.com/embed/v1ojZKWfShQ"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></td>
+                <td style="padding-left: 30px; padding-right: 30px">As humans, our perception of our limits tend to
+                    discourage us and subconsciously suggest that we can't
+                    succeed. Our subconscious tends to limit our conscious, so we need to align our conscious to
+                    cooperate
+                    with the subconscious. Our environments tend to win out over our desires and motivations. The
+                    solution
+                    to these issues is to make sure we put ourselves in suitable environments, and stop putting the
+                    wrong
+                    things into our minds and start putting the right things in our mind.</td>
+            </tr>
+            <tr>
+                <td><cite>My Philosophy for a Happy Life</cite> by <strong>Sam Berns</strong></td>
+                <td><iframe width="280" height="160" src="https://www.youtube.com/embed/36m1o-tM05g"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></td>
+                <td>
+                    <ol>
+                        <li>Be okay with what you can't do, because there are so many things you can do.</li>
+                        <li>Surround yourself with good people and people you love.</li>
+                        <li>Keep moving forward, seek new avenues and continue to grow.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td><cite>Grit: The Power of Passion and Perseverance</cite> by <strong>Angela Lee Duckworth</strong>
+                </td>
+                <td><iframe width="280" height="160" src="https://www.youtube.com/embed/H14bBuluwB8"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></td>
+                <td style="padding-left: 30px; padding-right: 30px">Grit is a better indicator of success than
+                    intelligence
+                    or social skills. Because of this, grit might be
+                    an important topic to educate kids with rather than running with the stereotypes that success is
+                    inherent and comes naturally to most successful people.</td>
+            </tr>
+            <tr>
+                <td><cite>The Paradox of Choice</cite> by <strong>Professor Renata Salecl</strong></td>
+                <td><iframe width="280" height="160" src="https://www.youtube.com/embed/1bqMY82xzWo"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></td>
+                <td style="padding-left: 30px; padding-right: 30px">Choices can cause anxiety, even though we all want
+                    change. The perceptions of other people affect our actions, because we're self-conscious, which
+                    reduces
+                    the capacity for radical social change. Choice also requires a loss, which is why we try to mitigate
+                    loss as much of possible by trying to choose the "best" choice. The world has evolved into a place
+                    where
+                    people believe that they are in charge of their lives, even though they are trapped in a system of
+                    long
+                    work hours and consumption, and people tend to blame themselves for all failure, even if that is not
+                    so.
+                </td>
+            </tr>
+        </table>
+    </main>
 
     <br>
     <hr>
 
-    <ul>
-        <li><a href="/bacs200/index.html">Home Page</a></li>
-        <li><a href="/bacs200/profile.html">Profile</a> </li>
-        <li>Week 1 - <a href="../index.html">Project 1 - Github Repo</a> </li>
-        <li>Week 2 - <a href="/bacs200/inspire.html">Project 2 - Inspire Me</a> </li>
-        <li>Week 3 - <a href="/bacs200/amuse.html">Project 3 - Amuse Me</a> </li>
-        <li>Week 4 - <a href="/bacs200/educate.html">Project 4 - Educate Me</a> </li>
-        <li>Week 5 - <a href="../test.html">Project 5 - Testing Page</a> </li>
-        <li>Week 6 - <a href="/bacs200/superhero.html">Project 6 - Superhero Page</a> </li>
-        <li>Week 7 - <a href="/bacs200/wanted.html">Project 7 - Wanted Page</a> </li>
-        <li>Week 8 - <a href="/bacs200/blog.html">Project 8 - Blog Page</a></li>
-        <li>Week 9 - <a href="/bacs200/nonprofit.html">Project 9 - Nonprofit Page</a></li>
-    </ul>
+    <footer>
+        <nav>
+            <div class="text-center">
+                <p><a href="/bacs200/index.html">Home Page</a></p>
+                <p><a href="/bacs200/profile.html">Profile</a></p>
+                <p>Week 1 - <a href="../index.html">Project 1 - Github Repo</a></p>
+                <p>Week 2 - <a href="/bacs200/inspire.html">Project 2 - Inspire Me</a></p>
+                <p>Week 3 - <a href="/bacs200/amuse.html">Project 3 - Amuse Me</a></p>
+                <p>Week 4 - <a href="/bacs200/educate.html">Project 4 - Educate Me</a></p>
+                <p>Week 5 - <a href="../test.html">Project 5 - Testing Page</a></p>
+                <p>Week 6 - <a href="/bacs200/superhero.html">Project 6 - Superhero Page</a></p>
+                <p>Week 7 - <a href="/bacs200/wanted.html">Project 7 - Wanted Page</a></p>
+                <p>Week 8 - <a href="/bacs200/blog.html">Project 8 - Blog Page</a></p>
+                <p>Week 9 - <a href="/bacs200/nonprofit.html">Project 9 - Nonprofit Page</a></p>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
