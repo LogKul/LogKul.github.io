@@ -9,6 +9,12 @@ h3 {
     float: left;
     margin: 16px;
 }
+.lightredbg {
+    background-color: lightcoral;
+}
+.redborder {
+    border: solid 4px red;
+}
 a:link {
     color: red;
 }
