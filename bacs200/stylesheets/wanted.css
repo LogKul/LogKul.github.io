@@ -23,11 +23,13 @@ a {
 }
 .floatleft {
     float: left;
-    margin-left: 12%;
+    margin-left: 10%;
+    width: 15%;
 }
 .floatright {
     float: right;
-    margin-right: 12%;
+    margin-right: 10%;
+    width: 45%;
 }
 .textblock {
     border-style: solid;
