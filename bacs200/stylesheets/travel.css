@@ -1,0 +1,34 @@
+.lightred {
+    background-color: rgb(255, 190, 190)
+}
+.mediumred {
+    background-color: rgb(252, 101, 101)
+}
+.image_roundinator {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+.smallcolorfix {
+    width: 100%;
+    height: 20px;
+}
+.test {
+    width: 100%;
+    height: 100%;
+}
+.bermuda1 {
+    background-image: url('../images/bermuda1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bermuda2 {
+    background-image: url('../images/bermuda2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bermuda3 {
+    background-image: url('../images/bermuda3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
