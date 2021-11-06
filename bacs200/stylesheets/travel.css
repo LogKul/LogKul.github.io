@@ -1,3 +1,16 @@
+nav > div > p {
+    line-height: 9px;
+}
+nav > div {
+    width: 20%;
+    background-color: rgb(200, 200, 255);
+    border: 2px solid rgb(0, 0, 255);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+img {
+    box-shadow: 5px 5px 3px;
+}
 .lightred {
     background-color: rgb(255, 255, 255)
 }
@@ -8,6 +21,9 @@
     border-radius: 50%;
     width: 140px;
     height: 140px;
+}
+.dark_text_shadow {
+    text-shadow: 2px 2px #000000;
 }
 .smallcolorfix {
     width: 100%;
@@ -31,4 +47,16 @@
     background-image: url('../images/bermuda3.jpg');
     background-repeat: no-repeat;
     background-position: center;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: green;
 }
